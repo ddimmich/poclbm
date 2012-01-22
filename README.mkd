@@ -4,7 +4,7 @@ Also added is parceval's patch for BTCMP.com's balance & withdraw api.
 
 Get the Binary from: https://github.com/downloads/pletoss/poclbm/guiminer-poclbm-macosx.dmg
 
-For help consult the original creators documentation & threads, e.g.:
+For help consult the original creators documentation & threads, i.e.:
 
 https://bitcointalk.org/index.php?topic=3878.0
 
