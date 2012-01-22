@@ -866,7 +866,7 @@ class MinerTab(wx.Panel):
             executable = "python mockBitcoinMiner.py"
         else:
             if hasattr(sys, 'frozen'):
-                executable = "poclbm.exe"
+                executable = "poclbm.app/Contents/MacOS/poclbm"
             else:
                 executable = "python poclbm.py"
         cmd = "%s %s:%s@%s:%s --device=%d --platform=%d --verbose %s" % (
