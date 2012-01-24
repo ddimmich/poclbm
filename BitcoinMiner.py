@@ -16,7 +16,7 @@ class BitcoinMiner():
 		self.output_size = 0x100
 		self.options = options
 		self.version = version
-		(self.defines, self.rate_divisor, self.hashspace) = if_else(self.options.vectors, ('-DVECTORS', 500, 0x7FFFFFFF), ('', 1000, 0xFFFFFFFF))
+		(self.defines, self.rate_divisor, self.hashspace) = if_else(self.options.vectors, ('-D VECTORS=1', 500, 0x7FFFFFFF), ('', 1000, 0xFFFFFFFF))
 		self.defines += (' -DOUTPUT_SIZE=' + str(self.output_size))
 		self.defines += (' -DOUTPUT_MASK=' + str(self.output_size - 1))
 
